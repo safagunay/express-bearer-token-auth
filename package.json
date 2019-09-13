@@ -1,0 +1,27 @@
+{
+	"name": "express-bearer-token-auth",
+	"peerDependencies": {
+		"express": "^4.17.1"
+	},
+	"version": "1.0.0",
+	"description": "bearer jwt aut middleware for express",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/safagunay/express-bearer-token-auth.git"
+	},
+	"keywords": [ "auth", "express", "jwt", "bearer", "token" ],
+	"author": "safagunay",
+	"license": "Apache License 2.0",
+	"bugs": {
+		"url": "https://github.com/safagunay/express-bearer-token-auth/issues"
+	},
+	"homepage": "https://github.com/safagunay/express-bearer-token-auth",
+	"dependencies": {
+		"express-bearer-token": "^2.4.0",
+		"jsonwebtoken": "^8.5.1"
+	}
+}
